@@ -28,7 +28,8 @@
 			android:authorities="us.lindanrandy.provider.CIDRHistory"
             tools:ignore="ExportedContentProvider" />
 	
-		<activity android:name=".CIDRCalculator" android:label="@string/app_name">
+		<activity android:name=".CIDRCalculator" android:label="@string/app_name"
+			android:exported="true">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
